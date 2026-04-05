@@ -100,7 +100,6 @@ function createHeart() {
   heart.classList.add("heart");
   heart.innerHTML = "❤️";
   
- /* heart.style.fontSize = "300px"; */
   heart.style.left = Math.random() * window.innerWidth + "px";
   heart.style.top = "0px";
 
@@ -129,7 +128,7 @@ function createHeart() {
   }
 
   // 🎉 Final screen
-  if(score == 4){
+  if(score == 18){
     document.getElementById("finalScreen").style.display = "flex";
   }
 }
